@@ -1,0 +1,96 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+}
+
+h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+section.section {
+  padding: 20px;
+  padding-bottom: 9px;
+  margin-bottom: 40px;
+  width: 90%;
+}
+
+.box-shadow {
+  box-shadow: 0 0 4px #807e7e;
+  box-sizing: border-box;
+  margin-left: 40px;
+}
+
+.birth {
+  display: flex;
+  justify-content: space-between;
+}
+
+.g-r {
+  display: flex;
+}
+
+.f-m {
+  display: flex;
+  justify-content: space-between;
+}
+
+.f-m-nid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .row{
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+.col-lg-12 {
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+form.classic .field {
+    display: block;
+    margin-bottom: 20px;
+  }
+  label:lang(bn) {
+    font-family: "Hind Siliguri",sans-serif !important;
+    font-weight: 900;
+    font-size: 16px;
+  }
+  form.classic label {
+    display: inline-flex;
+  }
+  form.classic label {
+    color: #3d4e5e;
+  
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+form.classic label.required::after {
+
+    content: "*";
+    color: red;
+    padding-left: 2px;
+}
+*, ::before, ::after {
+    box-sizing: inherit;
+  } */

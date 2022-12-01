@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="project bootstrap.css">
+    <link rel="stylesheet" href="admission_form.css">
+    <style>
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="text-primary fw-bold">গলাকাটি দ্বি-মূখী উচ্চ বিদ্যালয়ে ভর্তির আবেদন- ২০২৩</h3>
+    </div>
+    <br>
+    <div class="container fw-bold">
+        *সমস্ত তথ্য অবশ্যই
+        <span class=" text-danger"> ইংরেজিতে</span>
+        পুরণ করতে হবে।
+    </div>
+    <div class="container fw-bold">
+        *লাল তারকা (
+        <span class=" text-danger">*</span>
+        ) চিহ্নিত তথ্য গুলো অবশ্যই প্রদান করতে হবে।
+    </div>
+    <br>
+    <br>
+    <section class="container section box-shadow">
+        <p>নাম
+            <span style="color:red;" class=" fw-bold">*</span>
+            <input style="width:95%;" type="text" list="names" placeholder="only letters and number" required
+                pattern="[a-zA-Z 0-9]+">
+        </p>
+        <br>
+        <p>নাম (বাংলায়)
+            <span style="color:red;" class=" fw-bold">*</span>
+            <input style="width:87.5%;" type="text" list="names" placeholder=" বাংলায় লিখতে হবে" required
+                pattern="[ক -ঁ]+">
+        </p>
+        <br>
+        <div class="birth">
+            <p>জন্ম নিবন্ধন নম্বর
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:400px;" type="text" list="names" placeholder="only letters and number" required
+                    pattern="[a-zA-Z 0-9]+">
+            </p>
+            <p>জন্ম তারিখ
+                <span style="color:red;" class=" fw-bold">*</span>
+                <label for="dob"></label>
+                <input style="width:200px;" type="date" name="dob" id="dob">
+            </p>
+        </div>
+        <br>
+        <div class="g-r">
+            <p>মোবাইল নম্বর
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input type="number" name="" id="" style="width:200px" list="names" placeholder="only number" required
+                    pattern="[0-9]+">
+            </p>
+
+            <p style="margin-left: 40px">ধর্ম
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input type="radio" name="religion"> Islam
+                <input type="radio" name="religion"> Hindu
+                <input type="radio" name="religion"> others
+            </p>
+
+            <p style="margin-left:40px;">লিঙ্গ
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+                <input type="radio" name="gender"> others
+
+            </p>
+        </div>
+    </section>
+    <section class="container section box-shadow">
+        <div class="f-m">
+            <p>পিতার নাম
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:300px;" type="text" list="names" placeholder="only letters and number" required
+                    pattern="[a-zA-Z]+">
+            </p>
+            <p>মাতার নাম
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:300px;" type="text" list="names" placeholder="only letters and number" required
+                    pattern="[a-zA-Z]+">
+            </p>
+        </div> <br>
+        <div class="f-m">
+            <p>পিতার পেশা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:300px;" type="text" list="names" placeholder="only letters and number" required
+                    pattern="[a-zA-Z]+">
+            </p>
+            <p>মাতার পেশা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:300px;" type="text" list="names" placeholder="only letters and number" required
+                    pattern="[a-zA-Z]+">
+            </p>
+        </div> <br>
+        <div class="f-m-nid">
+            <p>পিতার NID (নম্বর)
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only 17 digit number" required
+                    pattern="[0-9]+">
+            </p>
+            <p>মাতার NID (নম্বর)
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only 17 digit number" required
+                    pattern="[0-9]+">
+            </p>
+        </div> <br>
+        <div class="f-m-nid">
+            <p>অভিভাবকের নাম
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only letters and number" required
+                    pattern="[a-zA-Z]+">
+            </p>
+            <p>অভিভাবকের NID (নম্বর)
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only 17 digit number" required
+                    pattern="[0-9]+">
+            </p>
+        </div>
+    </section>
+
+    <section class="container section box-shadow">
+        <div class="class">
+            <p> যে শ্রেণীতে ভর্তি হতে ইচ্ছুক:(জেনারেল শাখা/ভোকেশনাল শাখা)
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>Six</option>
+                    <option>Seven</option>
+                    <option>Eight</option>
+                    <option>Nine</option>
+                    <option>Nine- General Electrical Works</option>
+                    <option>Nine- General Machanics</option>
+                    <option>Nine- Building Maintance</option>
+                </select>
+            </p>
+        </div>
+        <div class="d-flex" style="justify-content: space-between;">
+            <p>পূর্ববর্তী স্কুলের নাম
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:500px;" type="text" list="names" placeholder="only use to text" required
+                    pattern="[0-9]+">
+            </p>
+            <p>পূর্ববর্তী শ্রেণী
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>প্রথম</option>
+                    <option>দ্বিতীয়</option>
+                    <option>তৃতীয়</option>
+                    <option>চতুর্থ</option>
+                    <option>পঞ্চম</option>
+                    <option>ষষ্ঠ</option>
+                    <option>সপ্তম</option>
+                    <option>অষ্টম</option>
+                </select>
+            </p>
+        </div>
+    </section>
+    <section class="container section box-shadow">
+        <div class="f-m-nid">
+            <p>বর্তমান ঠিকানা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only letters Village Name" required
+                    pattern="[a-zA-Z]+">
+            </p>
+            <p>পোষ্ট অফিস
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only letters Post Office Name"
+                    required pattern="[a-zA-Z]+">
+            </p>
+        </div>
+        <div class="class">
+            <p>বিভাগ
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>Rangpur</option>
+                    <option>Dinajpur</option>
+                    <option>Dhaka</option>
+                    <option>Khulna</option>
+                    <option>Borishals</option>
+                    <option>Sylet</option>
+                    <option>Chitagong</option>
+                </select>
+            </p>
+            <p>জেলা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>Rangpur</option>
+                    <option>Dinajpur</option>
+                    <option>Dhaka</option>
+                    <option>Khulna</option>
+                    <option>Borishals</option>
+                    <option>Sylet</option>
+                    <option>Chitagong</option>
+                </select>
+            </p>
+            <p>থানা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>Rangpur</option>
+                    <option>Dinajpur</option>
+                    <option>Dhaka</option>
+                    <option>Khulna</option>
+                    <option>Borishals</option>
+                    <option>Sylet</option>
+                    <option>Chitagong</option>
+                </select>
+            </p>
+            <p>পোষ্ট কোড
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only number" required
+                    pattern="[a-zA-Z]+">
+            </p>
+    </section>
+    <section class="container section box-shadow">
+        <div class="f-m-nid">
+            <p>স্থায়ী ঠিকানা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only letters Village Name" required
+                    pattern="[a-zA-Z]+">
+            </p>
+            <p>পোষ্ট অফিস
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only letters Post Office Name"
+                    required pattern="[a-zA-Z]+">
+            </p>
+        </div>
+        <div class="class">
+            <p>বিভাগ
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>Rangpur</option>
+                    <option>Dinajpur</option>
+                    <option>Dhaka</option>
+                    <option>Khulna</option>
+                    <option>Borishals</option>
+                    <option>Sylet</option>
+                    <option>Chitagong</option>
+                </select>
+            </p>
+            <p>জেলা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>Rangpur</option>
+                    <option>Dinajpur</option>
+                    <option>Dhaka</option>
+                    <option>Khulna</option>
+                    <option>Borishals</option>
+                    <option>Sylet</option>
+                    <option>Chitagong</option>
+                </select>
+            </p>
+            <p>থানা
+                <span style="color:red;" class=" fw-bold">*</span>
+                <select>
+                    <option>Rangpur</option>
+                    <option>Dinajpur</option>
+                    <option>Dhaka</option>
+                    <option>Khulna</option>
+                    <option>Borishals</option>
+                    <option>Sylet</option>
+                    <option>Chitagong</option>
+                </select>
+            </p>
+            <p>পোষ্ট কোড
+                <span style="color:red;" class=" fw-bold">*</span>
+                <input style="width:250px;" type="text" list="names" placeholder="only number" required
+                    pattern="[a-zA-Z]+">
+            </p>
+    </section>
+    <section class="container section box-shadow">
+        <div class=" photo">
+            <div>
+                <p> প্রার্থীর ছবি <span style="color:red;" class=" fw-bold">*</span></p>
+                <img id="ApplicantphotoImage" name="Applicantphoto"
+                    src="https://gsa.teletalk.com.bd/gov/assets/images/default-photo.jpg" style="width:150px;">
+            </div>
+            <div class="instrauction"
+                style="padding-left:0px;font-size:1.1em;font-family:hind siliguri,sans-serif important;color:#3d4e5e; display:block;">
+                ছবির দৈর্ঘ্য ও প্রস্থ্য অবশ্যই
+                <strong>300X300</strong>
+                পিক্সেল এবং সাইজ
+                <strong>100</strong>
+                কিলোবাইটের <br>নিচে হতে হবে।<br>
+                <br>
+                <p>
+                    <label for="photo"></label>
+                    <input type="file" name="photo" id="photo">
+                </p>
+            </div>
+        </div>
+    </section><br><br>
+    <div class="field" style="text-align:center;">
+        <label for="" style="display:flex; justify-content: center;align-items: center;">
+            <input type="checkbox" name=" agreement">
+            আমি অঙ্গীকার করছি যে উপরে প্রদানকৃত সকল তথ্য সঠিক।
+        </label>
+    </div><br>
+    <br><br>
+    <div style="width: 100%; text-align:center;">
+        <div id="ajax-status"></div>
+        <button id="submit" class="button" name="submit"
+            style="box-sizing: border-box; border-radius: 5px; width: 153px; height: 50px; padding: 10px 20px; font-weight: bold;">Submit</button>
+    </div><br>
+    <footer>
+        <div class="bg-dark">
+            <div class="d-flex" style="justify-content:space-between ">
+                <div class="copyright text-light p-2">
+                    @ All Rights Reserved-2023
+                </div>
+                <div class="powered-by">
+
+                    <a href=" https://www.teletalk.com.bd/" target="_blank" class="text-light">
+                        Powered-by:
+                        <img class="logo" src="https://gsa.teletalk.com.bd/gov/assets/images/teletalk-logo.png"
+                            alt=" teletalk-logo" style="height: 60px;">
+                    </a>
+                </div>
+            </div>
+            <div class="text-light" style="text-align: center;font-size: 12px;">
+               &copy; copyright AR-TEAMS_ Mobile:+8801710-131504/+8801998-151044.
+            </div><br>
+        </div>
+    </footer>
+</body>
+
+</html>
